@@ -1,0 +1,8 @@
+post http://localhost:5000/upvote/2
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6ImVmMmQxMjdkIiwidXNlcmlkIjo2LCJpYXQiOjE2Nzc5MTY4ODB9.fErX1z7bL_cJaaTFf6qQ-rKsDQycy5VmzOIWZxLACA8
+
+{
+    "type" : 1,
+    "status" : 1
+}
