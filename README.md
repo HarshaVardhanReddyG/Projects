@@ -1,6 +1,5 @@
 # Projects
 My projects
-
 Community Q&A Website February 2023
 · Developed a primitive Q&A website for accessing information, solving problems, and exchanging ideas.
 · Implemented features like creating, editing and deleting questions, answers, upvotes, downvotes, user
