@@ -1,47 +1,30 @@
-# Secinfra-RouteScout
-Code for RouteScout implementation and attack.
+## Projects
+# Community Q&A Website ( February 2023 )
+
+· Developed a primitive Q&A website for accessing information, solving problems, and exchanging ideas.
+
+· Implemented features like creating, editing and deleting questions, answers, upvotes, downvotes, user
+authentication, paging, user search, multi-tag search, filters.
 
 
-# ROUTESCOUT (Under construction. Will be updated soon)
+# eDHCP ( November 2023 )
 
-This folder has 5 subfolders:
-* 24kflows_caida
-* 24kflows_wis
-* 50kflows_caida
-* 50kflows_wis
-* engine
+· It is an extension to DHCP which ensures security for both server and client enabling simultaneous
 
-Implementation for routscout is present in the engine folder. We have also included some pcap files to test the code.
+authentication. The security is established via certificates facilitated by asymmetric key-based authentication. Used mininet environment for implementation.
 
-**TO RUN THE CODE**
+# Kaggle Project ( November 2023 )
 
-Downlaod the RoutScout folder locally (inclduing the pcap files). Open terminal and Go to engine folder. Run main.py giving the proper arguments. 
+· Conducted preprocessing on the input data like feature selection using heatmaps and predicting missing
+values through k-NN prediction and imputation.
 
-**STRUCTURE OF THE CODE**
+· Trained various ensemble models such as Random Forests, Adaboost, and Gradient Boosting, to analyze
+the dataset and make predictions.
 
-We have 4 .py files containing the implementation of RoutScout
+# Resource Sharing and Synchronization ( February 2022 )
 
-* main.py
-* SendFlow.py
-* LossMonitor1.py
-* DelayMonitor1.py
+· Implemented TAS, CAS, and Bounded CAS mutual exclusive algorithms for the synchronization of
+various threads that share a common lock.
 
-### main.py
-
-main.py is the starting point of execution. We have run the following command
-```
-python3 main.py --hops <number of hops> --pcap <pcap file name> --splitting <splitting method to consider>
-```
-main.py invokes sendFlows function. 
-
-### SendFlow.py
-
-This program parses the pcap file. Each packet from the pcap file is processed one by one. After parsing we get the TCP headers and meta data (timestamps and other necessary information) from the packet. We instantiate the Delay Monitor and Loss Monitor objects. We have 2 functions ``` populateDelayMonitor ``` and ``` populateLossMonitor ``` which are used to insert packets into the Delay and Loss Monitor. There is a function to create malicious SYN packets that are inserted into the Delay monitor. We are performing Chosen Insertion Adversary in the code. The comments in the code further explain the functions.
-
-### LossMonitor1.py
-
-We have a class implementation of Loss Monitor and some accessory functions. In the class declaration we have member functions to perform all operations on a Loss Monitor. By using these functions one can insert or delete a packet or verify whether a packet is expected or not. 
-
-### DelayMonitor1.py
-
-We have a class implementation of Delay Monitor and some accessory functions. In the class declaration we have member functions to perform all operations on a Delay Monitor. By using these functions one can insert or delete a packet or get timestamp from a pure cell. 
+· I developed a multithreading program to synchronize interactions between an Ice Cream Vendor and
+Families for selling and refilling ice creams using C++ threads, semaphores, and mutex locks
