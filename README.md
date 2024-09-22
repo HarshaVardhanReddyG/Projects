@@ -21,6 +21,13 @@ values through k-NN prediction and imputation.
 · Trained various ensemble models such as Random Forests, Adaboost, and Gradient Boosting, to analyze
 the dataset and make predictions.
 
+# Image Recognition and Classification (April 2024 )
+· Trained a variety of CNN architectures, including ResNet, ConvNeXt, and DenseNet, alongside Transformer models such as Vision Transformer on a subset of the ILSVRC dataset.
+
+· Applied various data transformations, such as random flips, random rotations, color jittering, and normalization for making better predictions.
+
+· Saved model weights at regular intervals to avoid repeated trainings. Employed ensemble learning techniques, including bagging, by integrating predictions from various CNN and Transformer models for better accuracy. 
+
 # Resource Sharing and Synchronization ( February 2022 )
 
 · Implemented TAS, CAS, and Bounded CAS mutual exclusive algorithms for the synchronization of
