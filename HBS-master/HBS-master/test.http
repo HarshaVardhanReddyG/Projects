@@ -1,0 +1,8 @@
+GET http://localhost:5000/guest_history
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjo1MiwidXNlcnR5cGUiOiJndWVzdCIsImlhdCI6MTcxMzg3MjU5OH0.WG1aFN7Eew7UIFhZ7JRi3HkfQWpnNhcGiKlR-_MGCVQ
+Content-Type: application/json
+
+{
+
+}
+
