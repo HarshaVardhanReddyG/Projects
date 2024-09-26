@@ -35,3 +35,10 @@ various threads that share a common lock.
 
 · I developed a multithreading program to synchronize interactions between an Ice Cream Vendor and
 Families for selling and refilling ice creams using C++ threads, semaphores, and mutex locks
+
+# Hotel Booking System
+·Developed a basic hotel booking system catering to both hotel managers and guests.
+·Created comprehensive Software Requirements Specification (SRS), System Requirements Analysis (SRA), System Architecture (SA), and System Design (SD), alongside thorough software testing.
+·Implemented key features such as hotel registration and management, advanced hotel search based on criteria like location, number of guests, and travel dates, with the ability to sort and filter results by amenities, price range, and popularity.
+·Integrated cancellation policies, ratings and reviews, FAQs, and more for a complete user experience.
+
